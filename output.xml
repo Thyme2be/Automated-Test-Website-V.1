@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.1.1 (Python 3.12.8 on win32)" generated="2025-01-12T15:58:33.550241" rpa="false" schemaversion="5">
+<robot generator="Robot 7.1.1 (Python 3.12.8 on win32)" generated="2025-01-13T11:23:35.379304" rpa="false" schemaversion="5">
 <suite id="s1" name="All Online Search Success" source="C:\Users\folk2\OneDrive - Thammasat University\Portfolio\Gosoft Automated Testing Bootcamp\Code\robotframework_workshop\allonline\all_online_search_success.robot">
 <test id="s1-t1" name="ค้นหา ไฟน์ไลน์ ควรเจอ ไฟน์ไลน์" line="9">
 <kw name="เปิดเว็บเบราว์เซอร์และเข้าเว็บไซต์ all online">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2025-01-12T15:58:33.825030" level="INFO">Opening browser 'chrome' to base url 'https://allonline.7eleven.co.th/'.</msg>
+<msg time="2025-01-13T11:23:35.973565" level="INFO">Opening browser 'chrome' to base url 'https://allonline.7eleven.co.th/'.</msg>
 <arg>url=${URL}</arg>
 <arg>browser=${BROWSER}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2025-01-12T15:58:33.824030" elapsed="4.488324"/>
+<status status="PASS" start="2025-01-13T11:23:35.972566" elapsed="5.192398"/>
 </kw>
-<status status="PASS" start="2025-01-12T15:58:33.824030" elapsed="4.488324"/>
+<status status="PASS" start="2025-01-13T11:23:35.972566" elapsed="5.192398"/>
 </kw>
 <kw name="ใส่คำค้นหา">
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-01-12T15:58:38.314568" level="INFO">Typing text 'ไฟน์ไลน์' into text field 'name=q'.</msg>
+<msg time="2025-01-13T11:23:41.166211" level="INFO">Typing text 'ไฟน์ไลน์' into text field 'name=q'.</msg>
 <arg>name=q</arg>
 <arg>ไฟน์ไลน์</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2025-01-12T15:58:38.313571" elapsed="0.493060"/>
+<status status="PASS" start="2025-01-13T11:23:41.166211" elapsed="0.543015"/>
 </kw>
-<status status="PASS" start="2025-01-12T15:58:38.313571" elapsed="0.493060"/>
+<status status="PASS" start="2025-01-13T11:23:41.166211" elapsed="0.544085"/>
 </kw>
 <kw name="กดปุ่ม Enter">
 <kw name="Press Keys" owner="SeleniumLibrary">
-<msg time="2025-01-12T15:58:38.807697" level="INFO">Sending key(s) ('RETURN',) to page.</msg>
-<msg time="2025-01-12T15:58:38.807697" level="INFO">Pressing special key RETURN to browser.</msg>
-<msg time="2025-01-12T15:58:38.808843" level="INFO">Releasing special key RETURN.</msg>
+<msg time="2025-01-13T11:23:41.711533" level="INFO">Sending key(s) ('RETURN',) to page.</msg>
+<msg time="2025-01-13T11:23:41.711533" level="INFO">Pressing special key RETURN to browser.</msg>
+<msg time="2025-01-13T11:23:41.711533" level="INFO">Releasing special key RETURN.</msg>
 <arg>NONE</arg>
 <arg>RETURN</arg>
 <doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
-<status status="PASS" start="2025-01-12T15:58:38.807697" elapsed="1.636057"/>
+<status status="PASS" start="2025-01-13T11:23:41.710296" elapsed="1.827379"/>
 </kw>
-<status status="PASS" start="2025-01-12T15:58:38.807697" elapsed="1.636057"/>
+<status status="PASS" start="2025-01-13T11:23:41.710296" elapsed="1.828507"/>
 </kw>
 <kw name="ตรวจสอบผลการค้นหา">
 <kw name="Wait Until Page Contains" owner="SeleniumLibrary">
 <arg>ผลการค้นหาสำหรับ »ไฟน์ไลน์«</arg>
 <doc>Waits until ``text`` appears on the current page.</doc>
-<status status="PASS" start="2025-01-12T15:58:40.443754" elapsed="0.044268"/>
+<status status="PASS" start="2025-01-13T11:23:43.539827" elapsed="0.017739"/>
 </kw>
-<status status="PASS" start="2025-01-12T15:58:40.443754" elapsed="0.044268"/>
+<status status="PASS" start="2025-01-13T11:23:43.538803" elapsed="0.018763"/>
 </kw>
-<status status="PASS" start="2025-01-12T15:58:33.823191" elapsed="6.665987"/>
+<status status="PASS" start="2025-01-13T11:23:35.971710" elapsed="7.586935"/>
 </test>
-<status status="PASS" start="2025-01-12T15:58:33.552237" elapsed="6.936941"/>
+<status status="PASS" start="2025-01-13T11:23:35.381287" elapsed="8.178507"/>
 </suite>
 <statistics>
 <total>
